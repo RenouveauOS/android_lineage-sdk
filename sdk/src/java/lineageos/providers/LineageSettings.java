@@ -1684,7 +1684,7 @@ public final class LineageSettings {
 
         /** @hide */
         public static final Validator QS_SHOW_BRIGHTNESS_SLIDER_VALIDATOR =
-                sBooleanValidator;
+                new InclusiveIntegerRangeValidator(0, 2);
 
         /**
          * Whether to control brightness from status bar
