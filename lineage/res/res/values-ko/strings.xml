@@ -18,6 +18,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Label for the LineageOS system components when they are shown to the user. -->
+    <string name="lineageos_system_label">LineageOS 시스템</string>
     <!-- Labels for the MODIFY_PROFILES permission. -->
     <!-- Labels for the HARDWARE_ABSTRACTION_ACCESS permission. -->
     <!-- Labels for the WRITE_SETTINGS permission -->
@@ -48,14 +49,33 @@
     <!-- About device screen, build date -->
     <!-- About device screen, LineageOS API Level -->
     <!-- About device screen, LineageOS updates -->
+    <string name="lineage_updates">LineageOS 업데이트</string>
     <!-- About device screen, LineageOS version -->
+    <string name="lineage_version">LineageOS 버전</string>
     <!-- About device screen, vendor security patch -->
+    <string name="lineage_vendor_security_patch">공급자 보안 패치 수준</string>
     <!-- General purpose use "unknown" string -->
+    <string name="unknown">알수 없음</string>
     <!-- Long-press back kill application -->
     <!-- Status bar network traffic monitor strings -->
+    <string name="kilobitspersecond_short">kb/초</string>
+    <string name="megabitspersecond_short">Mb/초</string>
+    <string name="kilobytespersecond_short">kB/초</string>
+    <string name="megabytespersecond_short">MB/초</string>
     <!-- Accent colors -->
+    <string name="rr_accent_black">검정</string>
+    <string name="rr_accent_blue">파랑</string>
+    <string name="rr_accent_red">빨강</string>
+    <string name="rr_accent_cyan">하늘</string>
+    <string name="rr_accent_green">초록</string>
+    <string name="rr_accent_orange">주황</string>
+    <string name="rr_accent_pink">분홍</string>
+    <string name="rr_accent_purple">보라</string>
+    <string name="rr_accent_darkgreen">어두운 초록</string>
+    <string name="rr_accent_yellow">노랑</string>
     <!-- Trust interface -->
     <!-- This string will be referenced from other apps when they're referring to the Trust interface.
          Trust is a feature name, it's not suggested to translate this unless there are conflicts due
          to a different meaning of the word "trust" in your language -->
+    <string name="trust_feature_name">신뢰</string>
 </resources>

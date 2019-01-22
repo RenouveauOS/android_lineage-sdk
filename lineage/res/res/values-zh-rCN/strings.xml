@@ -46,7 +46,7 @@
     <string name="profileNameWork">工作</string>
     <string name="profileNameHome">主页</string>
     <string name="profileNameSilent">静音</string>
-    <string name="profileNameNight">夜晚</string>
+    <string name="profileNameNight">夜间</string>
     <string name="profileNameAutomobile">汽车</string>
     <!-- Names of application groups. -->
     <string name="profileGroupPhone">通话</string>
@@ -81,10 +81,10 @@
     <string name="live_display_outdoor_summary">仅使用户外设置</string>
     <string name="live_display_hint">增强显示能帮助你减轻眼疲劳并在晚上帮助你入睡。点这里来试试吧！</string>
     <string name="accessibility_quick_settings_live_display_off">增强显示关闭</string>
-    <string name="accessibility_quick_settings_live_display_auto">增强显示：自动模式</string>
-    <string name="accessibility_quick_settings_live_display_day">增强显示：日间模式</string>
-    <string name="accessibility_quick_settings_live_display_night">增强显示：夜间模式</string>
-    <string name="accessibility_quick_settings_live_display_outdoor">增强显示：户外模式</string>
+    <string name="accessibility_quick_settings_live_display_auto">增强显示: 自动模式</string>
+    <string name="accessibility_quick_settings_live_display_day">增强显示: 日间模式</string>
+    <string name="accessibility_quick_settings_live_display_night">增强显示: 夜间模式</string>
+    <string name="accessibility_quick_settings_live_display_outdoor">增强显示: 户外模式</string>
     <string name="accessibility_quick_settings_live_display_changed_off">增强显示已关闭</string>
     <string name="accessibility_quick_settings_live_display_changed_auto">增强显示已切换为自动模式</string>
     <string name="accessibility_quick_settings_live_display_changed_day">增强显示已切换为日间模式</string>
