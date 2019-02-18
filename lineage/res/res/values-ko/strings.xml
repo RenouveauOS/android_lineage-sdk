@@ -158,4 +158,14 @@
          to a different meaning of the word "trust" in your language -->
     <string name="trust_feature_name">신뢰</string>
     <string name="permlab_trustInterface">Trust 인터페이스 접근</string>
+    <string name="permdesc_trustInterface">앱이 Trust 경고 및 제안을 띄울 수 있도록 허용합니다.</string>
+    <string name="trust_notification_channel">Trust 알림</string>
+    <string name="trust_notification_title_security">\u2022 시스템 보안 신뢰</string>
+    <string name="trust_notification_content_selinux">SELinux가 시행(Enforcing)상태가 아닙니다. 보안에 취약할 수 있습니다.</string>
+    <string name="trust_notification_title_root">\u2022 루트 권한 신뢰</string>
+    <string name="trust_notification_content_root">한 앱이 지금 루트 권한을 사용 중입니다.</string>
+    <string name="trust_notification_content_keys">이 빌드는 공개 키로 서명되었습니다.</string>
+    <string name="trust_notification_title_onboarding">Trust 알아보기</string>
+    <string name="trust_notification_content_onboarding">기기를 안전하게 유지하는 법 알아보기</string>
+    <string name="trust_notification_action_manage">경고 알림 관리</string>
 </resources>
