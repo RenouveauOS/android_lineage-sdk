@@ -21,7 +21,7 @@
     <string name="lineageos_system_label">Systém LineageOS</string>
     <!-- Labels for the MODIFY_PROFILES permission. -->
     <string name="permlab_modifyProfiles">upraviť systémové profily</string>
-    <string name="permdesc_modifyProfiles">Umožňuje aplikácii upravovať systémové profily.</string>
+    <string name="permdesc_modifyProfiles">Umožňuje aplikácii upraviť systémové profily.</string>
     <!-- Labels for the HARDWARE_ABSTRACTION_ACCESS permission. -->
     <string name="permlab_useHardwareFramework">používať hardvérový framework</string>
     <string name="permdesc_useHardwareFramework">Umožňuje aplikácii pristupovať k hardvérovému rámcu Lineage.</string>
@@ -30,10 +30,10 @@
     <string name="permdesc_writeSettings">Umožňuje aplikácii meniť nastavenia systému Lineage.</string>
     <!-- Labels for the WRITE_SECURE_SETTINGS permission -->
     <string name="permlab_writeSecureSettings">zmeniť nastavenia zabezpečenia systému Lineage</string>
-    <string name="permdesc_writeSecureSettings">Umožňuje aplikácii zmeniť nastavenia zabezpečenia systému Lineage. Nie je určené pre bežné aplikácie.</string>
+    <string name="permdesc_writeSecureSettings">Umožňuje aplikácii zmeniť nastavenia zabezpečenia systému Lienage. Nie je určené pre bežné aplikácie.</string>
     <!-- Labels for the PROTECTED_APP permission. -->
-    <string name="permlab_protectedApp">pridávať alebo odstraňovať aplikácie do zoznamu chránených aplikácií</string>
-    <string name="permdesc_protectedApp">Umožňuje aplikácii označiť iné aplikácie ako chránené a zamknúť ich.</string>
+    <string name="permlab_protectedApp">pridať a odobrať aplikácie z chránených aplikácií</string>
+    <string name="permdesc_protectedApp">Umožní aplikácii označiť iné aplikácie ako chránené a zamknúť ich.</string>
     <!-- Labels for CHANGE_STYLE permission -->
     <string name="permlab_changeStyle">zmeniť štýl systému</string>
     <!-- this is wrong, but google's package manager uses the android:description
@@ -43,19 +43,19 @@
     <!-- Profiles -->
     <!-- Names of default profiles. -->
     <string name="profileNameDefault">Predvolený</string>
-    <string name="profileNameWork">Pracovný</string>
-    <string name="profileNameHome">Doma</string>
+    <string name="profileNameWork">Práca</string>
+    <string name="profileNameHome">Domov</string>
     <string name="profileNameSilent">Tichý</string>
-    <string name="profileNameNight">Nočný</string>
+    <string name="profileNameNight">Noc</string>
     <string name="profileNameAutomobile">Auto</string>
     <!-- Names of application groups. -->
     <string name="profileGroupPhone">Telefón</string>
     <string name="profileGroupCalendar">Kalendár</string>
     <string name="profileGroupGmail">Gmail</string>
-    <string name="profileGroupEmail">Email</string>
+    <string name="profileGroupEmail">E-mail</string>
     <string name="profileGroupSMS">SMS</string>
     <!-- Name of wildcard profile. -->
-    <string name="wildcardProfile">Iné</string>
+    <string name="wildcardProfile">Iný</string>
     <!-- Performance profiles -->
     <string name="perf_profile_pwrsv">Úspora energie</string>
     <string name="perf_profile_bal">Vyvážený</string>
@@ -66,26 +66,26 @@
     <string name="perf_profile_pwrsv_summary">Maximálna úspora energie, znižuje výkon zariadenia</string>
     <string name="perf_profile_bal_summary">Optimálny výkon a výkonové charakteristiky</string>
     <string name="perf_profile_perf_summary">Režim Vysoký výkon. Vhodné pre aplikácie vyžadujúce nízku latenciu a vysoký výkon. Zvyšuje sa spotreba energie</string>
-    <string name="perf_profile_bias_power_summary">Preferovanie úspory energie. Obmedzenie maximálneho výkonu procesora, optimalizácia úspory energie za cenu vyššej latencie</string>
-    <string name="perf_profile_bias_perf_summary">Preferovanie výkonu. Znižuje latenciu a jemne zvyšuje spotrebu energie</string>
+    <string name="perf_profile_bias_power_summary">Preferovanie úspory energie. Obmedzenie maximálneho výkonu procesora, optimalizácia úspory energie za cenu vyššiu latencia</string>
+    <string name="perf_profile_bias_perf_summary">Preferovanie výkonu. Znižuje latenciu a zvyšuje spotrebu energie</string>
     <!-- LiveDisplay strings -->
     <string name="live_display_auto">Automaticky</string>
     <string name="live_display_auto_summary">Automaticky upraviť teplotu farieb obrazovky po západe a východe slnka</string>
     <string name="live_display_off">Vypnuté</string>
     <string name="live_display_off_summary">Zakázať všetky úpravy</string>
     <string name="live_display_day">Deň</string>
-    <string name="live_display_day_summary">Použiť iba nastavenia pre deň</string>
+    <string name="live_display_day_summary">Použiť len nastavenia pre deň</string>
     <string name="live_display_night">Noc</string>
-    <string name="live_display_night_summary">Použiť iba nastavenia pre noc</string>
+    <string name="live_display_night_summary">Použiť len nastavenia pre noc</string>
     <string name="live_display_outdoor">Vonku (slnečno)</string>
-    <string name="live_display_outdoor_summary">Použiť iba nastavenia vonku</string>
-    <string name="live_display_hint">LiveDisplay môže pomôcť znížiť únavu očí a pomôže vám v noci spať. Kliknite sem a vyskúšajte si to!</string>
+    <string name="live_display_outdoor_summary">Používať len nastavenia pre vonkajšie prostredie</string>
+    <string name="live_display_hint">LiveDisplay môže pomôcť znížiť únavu očí a pomôže vám spať v noci. Kliknite sem a vyskúšajte túto funkciu!</string>
     <string name="accessibility_quick_settings_live_display_off">LiveDisplay vyp.</string>
     <string name="accessibility_quick_settings_live_display_auto">LiveDisplay: automatický režim.</string>
     <string name="accessibility_quick_settings_live_display_day">LiveDisplay: denný režim.</string>
     <string name="accessibility_quick_settings_live_display_night">LiveDisplay: nočný režim.</string>
     <string name="accessibility_quick_settings_live_display_outdoor">LiveDisplay: režim vonku.</string>
-    <string name="accessibility_quick_settings_live_display_changed_off">LiveDisplay je vypnutý.</string>
+    <string name="accessibility_quick_settings_live_display_changed_off">LiveDisplay vypnutý.</string>
     <string name="accessibility_quick_settings_live_display_changed_auto">LiveDisplay sa zmenil na automatický režim.</string>
     <string name="accessibility_quick_settings_live_display_changed_day">LiveDisplay sa zmenil na denný režim.</string>
     <string name="accessibility_quick_settings_live_display_changed_night">LiveDisplay sa zmenil na nočný režim.</string>
@@ -93,37 +93,37 @@
     <!-- Performance manager permission title -->
     <string name="permlab_perfAccess">prístup k správe výkonu</string>
     <!-- Performance manager permission description -->
-    <string name="permdesc_perfAccessDesc">Umožňuje aplikácii prístup k správe výkonu. Štandardné aplikácie by toto nemali potrebovať.</string>
+    <string name="permdesc_perfAccessDesc">Umožňuje aplikácii prístup k správe výkonu. Toto povolenie nie je bežné pre štandardné aplikácie.</string>
     <!-- Weather Service strings -->
     <string name="permlab_weather_read">čítať počasie</string>
-    <string name="permdesc_weather_read">Umožňuje aplikácii čítať obsah od poskytovateľa počasia.</string>
+    <string name="permdesc_weather_read">Umožní aplikácii čítať obsah z poskytovateľa počasia.</string>
     <string name="permlab_weather_write">aktualizovať poskytovateľa počasia</string>
     <string name="permdesc_weather_write">Umožní aplikácii aktualizovať obsah poskytovateľa počasia.</string>
-    <string name="permlab_weather_bind">určiť poskytovateľa meteorologickej služby</string>
+    <string name="permlab_weather_bind">viazať sa ako služba poskytovateľa počasia</string>
     <string name="permdesc_weather_bind">Umožní aplikácii identifikovať sa ako služba poskytovateľa počasia.</string>
-    <string name="permlab_weather_access_mgr">prístup k službe počasia</string>
-    <string name="permdesc_weather_access_mgr">Umožňuje aplikácii prístup k systémovej službe počasia. Štandardné aplikácie by toto nemali potrebovať.</string>
+    <string name="permlab_weather_access_mgr">prístup k meteorologickej službe</string>
+    <string name="permdesc_weather_access_mgr">Povoliť aplikácií prístup k meteorologickej službe v systéme. Bežné aplikácie by to nemali nikdy vyžadovať.</string>
     <!-- DataUsageProvider write permission title -->
-    <string name="permlab_dataUsageWrite">upravovať databázu spotreby dát</string>
+    <string name="permlab_dataUsageWrite">meniť databázu využitia dát</string>
     <!-- DataUsageProvider write permission description -->
-    <string name="permdesc_dataUsageWrite">Umožňuje aplikácii upravovať obsah databázy spotreby dát.</string>
+    <string name="permdesc_dataUsageWrite">Umožní aplikácii aktualizovať obsah databázy využitia dát.</string>
     <!-- DataUsageProvider read permission title -->
-    <string name="permlab_dataUsageRead">čítať databázu spotreby dát</string>
+    <string name="permlab_dataUsageRead">čítať databázu využitia dát</string>
     <!-- DataUsageProvider read permission description -->
-    <string name="permdesc_dataUsageRead">Umožňuje aplikácii čítať obsah databázy spotreby dát.</string>
+    <string name="permdesc_dataUsageRead">Umožní aplikácii čítať obsah z databázy použitia dát.</string>
     <!-- LiveDisplay manager permission -->
     <string name="permlab_manageLiveDisplay">spravovať nastavenia LiveDisplay</string>
-    <string name="permdesc_manageLiveDisplay">Umožňuje aplikácii meniť rozšírené nastavenia obrazovky.</string>
+    <string name="permdesc_manageLiveDisplay">Umožní aplikácii nastavovať pokročilé nastavenia obrazovky.</string>
     <!-- LineageAudioService - observe session changes permission -->
-    <string name="permlab_observe_audio_sessions">pozorovať zmeny zvukových relácií</string>
-    <string name="permdesc_observe_audio_sessions">Umožňuje aplikácii pozorovať ako sú vytvárané a ukončované zvukové relácie.</string>
+    <string name="permlab_observe_audio_sessions">pozorovať zmeny audio sedenia</string>
+    <string name="permdesc_observe_audio_sessions">Umožní aplikácii sledovať vytváranie a rušenie zvukových zdrojov.</string>
     <!-- Privacy Guard -->
     <string name="privacy_guard_manager_title">Ochrana súkromia</string>
     <!-- Permissions used by remote preferences -->
     <string name="permlab_manageRemotePrefs">správa vzdialených nastavení</string>
     <string name="permdesc_manageRemotePrefs">Umožňuje spravovať vzdialené nastavenia</string>
     <!-- About device screen, build date -->
-    <string name="build_date">Dátum zostavy</string>
+    <string name="build_date">Dátum zostavenia</string>
     <!-- About device screen, LineageOS API Level -->
     <string name="lineage_api_level">Verzia LineageOS API</string>
     <!-- About device screen, LineageOS updates -->
@@ -133,9 +133,9 @@
     <!-- About device screen, vendor security patch -->
     <string name="lineage_vendor_security_patch">Úroveň opravy zabezpečenia výrobcu</string>
     <!-- General purpose use "unknown" string -->
-    <string name="unknown">Neznáme</string>
+    <string name="unknown">Neznáma</string>
     <!-- Long-press back kill application -->
-    <string name="app_killed_message">Aplikácia ukončená</string>
+    <string name="app_killed_message">Aplikácia bola ukončená</string>
     <!-- Status bar network traffic monitor strings -->
     <string name="kilobitspersecond_short">kb/s</string>
     <string name="megabitspersecond_short">Mb/s</string>
@@ -160,12 +160,12 @@
     <string name="permlab_trustInterface">prístup k rozhraniu Trust</string>
     <string name="permdesc_trustInterface">Umožňuje aplikácii zobrazovať upozornenia a návrhy Trust</string>
     <string name="trust_notification_channel">Upozornenia Trust</string>
-    <string name="trust_notification_title_security">Trust \u2022 Bezpečnosť systému</string>
-    <string name="trust_notification_content_selinux">SELinux nie je vo vynútenom režime, vaša bezpečnosť je oslabená</string>
+    <string name="trust_notification_title_security">Trust \u2022 Bezpečnostný systém</string>
+    <string name="trust_notification_content_selinux">Ak SELinux nie je vynútený, vaša úroveň zabezpečenia je oslabená</string>
     <string name="trust_notification_title_root">Trust \u2022 Root prístup</string>
-    <string name="trust_notification_content_root">Aplikácia práve teraz používa Root práva</string>
+    <string name="trust_notification_content_root">Aplikácia práve používa práva root</string>
     <string name="trust_notification_content_keys">Táto zostava je podpísaná s verejnými kľúčmi</string>
     <string name="trust_notification_title_onboarding">Objavte Trust</string>
-    <string name="trust_notification_content_onboarding">Zistite, ako zabezpečiť, aby vaše zariadenie bolo v bezpečí</string>
+    <string name="trust_notification_content_onboarding">Zistite, ako zabezpečiť bezpečnosť zariadenia</string>
     <string name="trust_notification_action_manage">Správa upozornení</string>
 </resources>

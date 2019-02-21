@@ -20,10 +20,10 @@
     <!-- Label for the LineageOS system components when they are shown to the user. -->
     <string name="lineageos_system_label">System LineageOS</string>
     <!-- Labels for the MODIFY_PROFILES permission. -->
-    <string name="permlab_modifyProfiles">modyfikacja profili systemowych</string>
-    <string name="permdesc_modifyProfiles">Zezwalaj aplikacji na modyfikację profili systemowych.</string>
+    <string name="permlab_modifyProfiles">modyfikuje profile systemowe</string>
+    <string name="permdesc_modifyProfiles">Umożliwia aplikacji modyfikację profili systemowych.</string>
     <!-- Labels for the HARDWARE_ABSTRACTION_ACCESS permission. -->
-    <string name="permlab_useHardwareFramework">użyj sprzętowego frameworka</string>
+    <string name="permlab_useHardwareFramework">używa sprzętowego frameworka</string>
     <string name="permdesc_useHardwareFramework">Zezwala aplikacji na dostęp do frameworka sprzętowego Lineage.</string>
     <!-- Labels for the WRITE_SETTINGS permission -->
     <string name="permlab_writeSettings">modyfikacja ustawień systemu Lineage</string>
@@ -42,54 +42,54 @@
     <string name="permdesc_changeStyle">dostosowywanie kolorów systemowych</string>
     <!-- Profiles -->
     <!-- Names of default profiles. -->
-    <string name="profileNameDefault">Domyślna</string>
+    <string name="profileNameDefault">Domyślny</string>
     <string name="profileNameWork">Praca</string>
-    <string name="profileNameHome">Strona Główna</string>
-    <string name="profileNameSilent">Wyciszenie</string>
-    <string name="profileNameNight">Noc</string>
+    <string name="profileNameHome">Dom</string>
+    <string name="profileNameSilent">Cichy</string>
+    <string name="profileNameNight">Nocny</string>
     <string name="profileNameAutomobile">Samochód</string>
     <!-- Names of application groups. -->
     <string name="profileGroupPhone">Telefon</string>
     <string name="profileGroupCalendar">Kalendarz</string>
     <string name="profileGroupGmail">Gmail</string>
-    <string name="profileGroupEmail">Adres e-mail</string>
-    <string name="profileGroupSMS">Wiadomości SMS</string>
+    <string name="profileGroupEmail">E-mail</string>
+    <string name="profileGroupSMS">SMS</string>
     <!-- Name of wildcard profile. -->
-    <string name="wildcardProfile">Inne</string>
+    <string name="wildcardProfile">Inny</string>
     <!-- Performance profiles -->
-    <string name="perf_profile_pwrsv">Oszczędzanie energii</string>
+    <string name="perf_profile_pwrsv">Oszczędny</string>
     <string name="perf_profile_bal">Zbalansowany</string>
-    <string name="perf_profile_perf">Wydajność</string>
-    <string name="perf_profile_bias_power">Wydajność</string>
+    <string name="perf_profile_perf">Wydajny</string>
+    <string name="perf_profile_bias_power">Oszczędny</string>
     <string name="perf_profile_bias_perf">Szybki</string>
     <!-- Performance profiles -->
     <string name="perf_profile_pwrsv_summary">Maksymalna oszczędność energii, zmniejsza wydajność urządzenia</string>
-    <string name="perf_profile_bal_summary">Równowaga optymalnej wydajności i zużycia energii.</string>
+    <string name="perf_profile_bal_summary">Równowaga optymalnej wydajności i zużycia energii</string>
     <string name="perf_profile_perf_summary">Tryb wysokiej wydajności. Przydatne dla aplikacji wymagających minimalnych opóźnień i najwyższej wydajności bez względu na zużycie energii</string>
     <string name="perf_profile_bias_power_summary">Sprzyja oszczędzaniu energii. Ogranicza moc procesora i optymalizuje pod kątem zużycia energii, kosztem większych opóźnień</string>
-    <string name="perf_profile_bias_perf_summary">Optymalne osiągi. Redukuje opóźnienie kosztem nieco zwiększonego zużycia energii.</string>
+    <string name="perf_profile_bias_perf_summary">Sprzyja wydajności. Zmniejsza opóźnienia z lekko zwiększonym zużyciem energii</string>
     <!-- LiveDisplay strings -->
     <string name="live_display_auto">Automatyczny</string>
-    <string name="live_display_auto_summary">Automatycznie dopasuj temperaturę kolorów ekranu po zachodzie i wschodnie słońca</string>
-    <string name="live_display_off">Wyłącz</string>
-    <string name="live_display_off_summary">Odrzuć wszystkie zmiany</string>
+    <string name="live_display_auto_summary">Automatycznie dostosuj temperaturę kolorów ekranu po zachodzie i wschodzie słońca</string>
+    <string name="live_display_off">Wyłączony</string>
+    <string name="live_display_off_summary">Wyłącz wszystkie zmiany</string>
     <string name="live_display_day">Dzień</string>
-    <string name="live_display_day_summary">Użyj wyłącznie ustawień dziennych</string>
-    <string name="live_display_night">Noc</string>
-    <string name="live_display_night_summary">Użyj wyłącznie ustawień nocnych</string>
+    <string name="live_display_day_summary">Używaj tylko ustawień za dnia</string>
+    <string name="live_display_night">Nocny</string>
+    <string name="live_display_night_summary">Używaj ustawień tylko w nocy</string>
     <string name="live_display_outdoor">Na zewnątrz (jasne światło)</string>
-    <string name="live_display_outdoor_summary">Użyj wyłącznie ustawienia Na Zewnątrz</string>
-    <string name="live_display_hint">LiveDisplay może zredukować zmęczenie oczu oraz może pomóc zasnąć w nocy.Kliknij aby wypróbować!</string>
+    <string name="live_display_outdoor_summary">Używaj ustawień tylko na zewnątrz</string>
+    <string name="live_display_hint">LiveDisplay może pomóc w zredukowaniu efektu zmęczenia oczu oraz pomaga zasnąć w nocy. Kliknij tutaj, aby wypróbować!</string>
     <string name="accessibility_quick_settings_live_display_off">LiveDisplay wyłączony.</string>
     <string name="accessibility_quick_settings_live_display_auto">LiveDisplay: tryb automatyczny.</string>
     <string name="accessibility_quick_settings_live_display_day">LiveDisplay: tryb dzienny.</string>
     <string name="accessibility_quick_settings_live_display_night">LiveDisplay: tryb nocny.</string>
-    <string name="accessibility_quick_settings_live_display_outdoor">LiveDisplay: tryb na zewnątrz.</string>
-    <string name="accessibility_quick_settings_live_display_changed_off">LiveDisplay wyłączony.</string>
-    <string name="accessibility_quick_settings_live_display_changed_auto">LiveDisplay zmieniony na tryb auto.</string>
+    <string name="accessibility_quick_settings_live_display_outdoor">LiveDisplay: tryb zewnętrzny.</string>
+    <string name="accessibility_quick_settings_live_display_changed_off">LiveDisplay został wyłączony.</string>
+    <string name="accessibility_quick_settings_live_display_changed_auto">LiveDisplay zmieniony na tryb automatyczny.</string>
     <string name="accessibility_quick_settings_live_display_changed_day">LiveDisplay zmieniony na tryb dzienny.</string>
     <string name="accessibility_quick_settings_live_display_changed_night">LiveDisplay zmieniony na tryb nocny.</string>
-    <string name="accessibility_quick_settings_live_display_changed_outdoor">LiveDisplay zmieniony na tryb na zewnątrz.</string>
+    <string name="accessibility_quick_settings_live_display_changed_outdoor">LiveDisplay zmieniony na tryb zewnętrzny.</string>
     <!-- Performance manager permission title -->
     <string name="permlab_perfAccess">dostęp do menedżera wydajności</string>
     <!-- Performance manager permission description -->
@@ -97,9 +97,9 @@
     <!-- Weather Service strings -->
     <string name="permlab_weather_read">odczyt pogody</string>
     <string name="permdesc_weather_read">Umożliwia aplikacji odczyt danych od dostawcy pogody.</string>
-    <string name="permlab_weather_write">aktualizacja dostawcy prognozy pogody</string>
-    <string name="permdesc_weather_write">Zezwala aplikacji na aktualizowanie treści od dostawcy usług prognozy pogody.</string>
-    <string name="permlab_weather_bind">wskaż jako usługodawcę prognozy pogody</string>
+    <string name="permlab_weather_write">aktualizacja dostawcy pogody</string>
+    <string name="permdesc_weather_write">Umożliwia aplikacji na aktualizację danych dostawcy pogody.</string>
+    <string name="permlab_weather_bind">powiąż jako usługa dostawcy pogody</string>
     <string name="permdesc_weather_bind">Zezwala aplikacji na dostarczanie usługi prognozy pogody.</string>
     <string name="permlab_weather_access_mgr">dostęp do usługi prognozy pogody</string>
     <string name="permdesc_weather_access_mgr">Zezwala aplikacji na dostęp do usługi prognozy pogody w systemie. Nie powinno być wymagane przez zwykłe aplikacje.</string>
@@ -108,19 +108,19 @@
     <!-- DataUsageProvider write permission description -->
     <string name="permdesc_dataUsageWrite">Umożliwia aplikacji aktualizowanie zawartości licznika danych.</string>
     <!-- DataUsageProvider read permission title -->
-    <string name="permlab_dataUsageRead">odczyt informacji o użyciu bazy danych</string>
+    <string name="permlab_dataUsageRead">odczyt zawartości licznika danych</string>
     <!-- DataUsageProvider read permission description -->
     <string name="permdesc_dataUsageRead">Umożliwia aplikacji odczyt zawartości licznika danych.</string>
     <!-- LiveDisplay manager permission -->
     <string name="permlab_manageLiveDisplay">zarządzanie ustawieniami LiveDisplay</string>
-    <string name="permdesc_manageLiveDisplay">Zezwala aplikacji na konfigurowanie zaawansowanych ustawień wyświetlacza.</string>
+    <string name="permdesc_manageLiveDisplay">Pozwala aplikacji na konfigurację zaawansowanych ustawień wyświetlacza.</string>
     <!-- LineageAudioService - observe session changes permission -->
     <string name="permlab_observe_audio_sessions">obserwuj zmiany sesji audio</string>
-    <string name="permdesc_observe_audio_sessions">Pozwala aplikacji obserwować strumienie audio, które są tworzone i niszczone.</string>
+    <string name="permdesc_observe_audio_sessions">Zezwalaj aplikacji na obserwowanie utworzenia lub zamknięcia strumienia dźwięku.</string>
     <!-- Privacy Guard -->
     <string name="privacy_guard_manager_title">Ochrona prywatności</string>
     <!-- Permissions used by remote preferences -->
-    <string name="permlab_manageRemotePrefs">zdalne zarządzanie ustawieniami</string>
+    <string name="permlab_manageRemotePrefs">zarządza zdalnymi ustawieniami</string>
     <string name="permdesc_manageRemotePrefs">Zezwala aplikacji na zarządzanie zdalnymi ustawieniami</string>
     <!-- About device screen, build date -->
     <string name="build_date">Data kompilacji</string>
@@ -156,7 +156,7 @@
     <!-- This string will be referenced from other apps when they're referring to the Trust interface.
          Trust is a feature name, it's not suggested to translate this unless there are conflicts due
          to a different meaning of the word "trust" in your language -->
-    <string name="trust_feature_name">Zaufane</string>
+    <string name="trust_feature_name">Trust</string>
     <string name="permlab_trustInterface">dostęp do interfejsu Trust</string>
     <string name="permdesc_trustInterface">Zezwól aplikacji na wyświetlanie ostrzeżeń i sugestii Trust</string>
     <string name="trust_notification_channel">Ostrzeżenia Trust</string>

@@ -20,7 +20,7 @@
     <!-- Label for the LineageOS system components when they are shown to the user. -->
     <string name="lineageos_system_label">Sistema LineageOS</string>
     <!-- Labels for the MODIFY_PROFILES permission. -->
-    <string name="permlab_modifyProfiles">modificar perfis do sistema</string>
+    <string name="permlab_modifyProfiles">modificar os perfis de sistema</string>
     <string name="permdesc_modifyProfiles">Permite que uma aplicação modifique os perfis do sistema.</string>
     <!-- Labels for the HARDWARE_ABSTRACTION_ACCESS permission. -->
     <string name="permlab_useHardwareFramework">utilizar a framework de hardware</string>
@@ -42,8 +42,8 @@
     <string name="permdesc_changeStyle">personalizar as cores do sistema</string>
     <!-- Profiles -->
     <!-- Names of default profiles. -->
-    <string name="profileNameDefault">Predefinição</string>
-    <string name="profileNameWork">Emprego</string>
+    <string name="profileNameDefault">Padrão</string>
+    <string name="profileNameWork">Trabalho</string>
     <string name="profileNameHome">Casa</string>
     <string name="profileNameSilent">Silêncio</string>
     <string name="profileNameNight">Noite</string>
@@ -55,7 +55,7 @@
     <string name="profileGroupEmail">E-mail</string>
     <string name="profileGroupSMS">SMS</string>
     <!-- Name of wildcard profile. -->
-    <string name="wildcardProfile">Outros</string>
+    <string name="wildcardProfile">Outro</string>
     <!-- Performance profiles -->
     <string name="perf_profile_pwrsv">Poupança de bateria</string>
     <string name="perf_profile_bal">Equilibrado</string>
@@ -66,12 +66,12 @@
     <string name="perf_profile_pwrsv_summary">Poupança de bateria máxima. Reduz o desempenho do dispositivo</string>
     <string name="perf_profile_bal_summary">Equilíbrio entre desempenho e consumo de energia</string>
     <string name="perf_profile_perf_summary">Modo de alto desempenho. Útil para aplicações que necessitam de baixa latência e taxa de transferências mais altas, quando o consumo de energia não é uma preocupação</string>
-    <string name="perf_profile_bias_power_summary">Favorece a poupança de energia. Limita a potência máxima do CPU e otimiza a poupança de energia, resultando num aumento da latência</string>
+    <string name="perf_profile_bias_power_summary">Favorece a poupança de energia. Limita a potência máxima da CPU e otimiza a poupança de energia, resultando num aumento da latência</string>
     <string name="perf_profile_bias_perf_summary">Favorece o desempenho. Reduz a latência com um aumento ligeiro do consumo de energia</string>
     <!-- LiveDisplay strings -->
     <string name="live_display_auto">Automático</string>
     <string name="live_display_auto_summary">Ajusta automaticamente a temperatura de cor do ecrã após o pôr do sol e o nascer do sol</string>
-    <string name="live_display_off">Desligado</string>
+    <string name="live_display_off">Desativado</string>
     <string name="live_display_off_summary">Desativar todos os ajustes</string>
     <string name="live_display_day">Dia</string>
     <string name="live_display_day_summary">Usar apenas as definições de dia</string>
@@ -80,16 +80,16 @@
     <string name="live_display_outdoor">Exterior (sol forte)</string>
     <string name="live_display_outdoor_summary">Usar apenas as definições de exterior</string>
     <string name="live_display_hint">O LiveDisplay pode ajudar a reduzir a fadiga ocular e ajudá-lo a dormir melhor à noite. Toque aqui para experimentar!</string>
-    <string name="accessibility_quick_settings_live_display_off">LiveDisplay desligado</string>
-    <string name="accessibility_quick_settings_live_display_auto">LiveDisplay: modo automático</string>
-    <string name="accessibility_quick_settings_live_display_day">LiveDisplay: modo de dia</string>
-    <string name="accessibility_quick_settings_live_display_night">LiveDisplay: modo de noite</string>
-    <string name="accessibility_quick_settings_live_display_outdoor">LiveDisplay: modo de exterior</string>
-    <string name="accessibility_quick_settings_live_display_changed_off">LiveDisplay desligado</string>
-    <string name="accessibility_quick_settings_live_display_changed_auto">LiveDisplay alterado para o modo automático</string>
-    <string name="accessibility_quick_settings_live_display_changed_day">LiveDisplay alterado para o modo de dia</string>
-    <string name="accessibility_quick_settings_live_display_changed_night">LiveDisplay alterado para o modo de de noite</string>
-    <string name="accessibility_quick_settings_live_display_changed_outdoor">LiveDisplay alterado para o modo de exterior</string>
+    <string name="accessibility_quick_settings_live_display_off">LiveDisplay desligado.</string>
+    <string name="accessibility_quick_settings_live_display_auto">LiveDisplay: modo automático.</string>
+    <string name="accessibility_quick_settings_live_display_day">LiveDisplay: modo dia.</string>
+    <string name="accessibility_quick_settings_live_display_night">LiveDisplay: modo noite.</string>
+    <string name="accessibility_quick_settings_live_display_outdoor">LiveDisplay: modo exterior.</string>
+    <string name="accessibility_quick_settings_live_display_changed_off">LiveDisplay foi desligado.</string>
+    <string name="accessibility_quick_settings_live_display_changed_auto">LiveDisplay alterado para modo automático.</string>
+    <string name="accessibility_quick_settings_live_display_changed_day">LiveDisplay alterado para modo dia.</string>
+    <string name="accessibility_quick_settings_live_display_changed_night">LiveDisplay alterado para modo noite.</string>
+    <string name="accessibility_quick_settings_live_display_changed_outdoor">LiveDisplay alterado para modo exterior.</string>
     <!-- Performance manager permission title -->
     <string name="permlab_perfAccess">aceder ao gestor de desempenho</string>
     <!-- Performance manager permission description -->
@@ -133,7 +133,7 @@
     <!-- About device screen, vendor security patch -->
     <string name="lineage_vendor_security_patch">Nível do patch de segurança do fabricante</string>
     <!-- General purpose use "unknown" string -->
-    <string name="unknown">Desconhecida</string>
+    <string name="unknown">Desconhecido</string>
     <!-- Long-press back kill application -->
     <string name="app_killed_message">Aplicação terminada</string>
     <!-- Status bar network traffic monitor strings -->
@@ -161,11 +161,11 @@
     <string name="permdesc_trustInterface">Permite que uma aplicação mostre avisos e sugestões da interface Trust</string>
     <string name="trust_notification_channel">Alertas Trust</string>
     <string name="trust_notification_title_security">Trust \u2022 Sistema de segurança</string>
-    <string name="trust_notification_content_selinux">O SELinux não está no modo Forçador. A sua segurança está enfraquecida</string>
+    <string name="trust_notification_content_selinux">O SELinux não está no modo Forçador. A sua segurança torna-se mais fraca</string>
     <string name="trust_notification_title_root">Trust \u2022 Acesso root</string>
     <string name="trust_notification_content_root">Há uma aplicação a utilizar privilégios de Root neste momento</string>
     <string name="trust_notification_content_keys">Esta compilação foi assinada com chaves públicas</string>
-    <string name="trust_notification_title_onboarding">Descubra o Trust</string>
+    <string name="trust_notification_title_onboarding">Descoberta Trust</string>
     <string name="trust_notification_content_onboarding">Fique a saber como garantir que o seu dispositivo é seguro</string>
     <string name="trust_notification_action_manage">Gerir alertas</string>
 </resources>
