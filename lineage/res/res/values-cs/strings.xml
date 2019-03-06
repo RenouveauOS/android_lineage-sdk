@@ -21,9 +21,9 @@
     <string name="lineageos_system_label">Systém LineageOS</string>
     <!-- Labels for the MODIFY_PROFILES permission. -->
     <string name="permlab_modifyProfiles">změnit systémové profily</string>
-    <string name="permdesc_modifyProfiles">Umožňuje upravovat systémové profily.</string>
+    <string name="permdesc_modifyProfiles">Umožňuje aplikaci upravit systémové profily.</string>
     <!-- Labels for the HARDWARE_ABSTRACTION_ACCESS permission. -->
-    <string name="permlab_useHardwareFramework">využití hardware zařízení</string>
+    <string name="permlab_useHardwareFramework">použít hardware framework</string>
     <string name="permdesc_useHardwareFramework">Umožní přistupovat k hardware pomocí systému Lineage.</string>
     <!-- Labels for the WRITE_SETTINGS permission -->
     <string name="permlab_writeSettings">změnit nastavení systému Lineage</string>
@@ -33,7 +33,7 @@
     <string name="permdesc_writeSecureSettings">Umožní změnit nastavení zabezpečení systému Lineage. Není určeno pro běžné aplikace.</string>
     <!-- Labels for the PROTECTED_APP permission. -->
     <string name="permlab_protectedApp">přidat nebo odstranit aplikace z chráněných aplikací</string>
-    <string name="permdesc_protectedApp">Umožňuje označit aplikace jako chráněné a zamknout je.</string>
+    <string name="permdesc_protectedApp">Umožňuje aplikaci označit jiné aplikace jako chráněné a zamknout je.</string>
     <!-- Labels for CHANGE_STYLE permission -->
     <string name="permlab_changeStyle">změnit vzhled systému</string>
     <!-- this is wrong, but google's package manager uses the android:description
@@ -43,9 +43,9 @@
     <!-- Profiles -->
     <!-- Names of default profiles. -->
     <string name="profileNameDefault">Výchozí</string>
-    <string name="profileNameWork">Práce</string>
-    <string name="profileNameHome">Doma</string>
-    <string name="profileNameSilent">Tichý</string>
+    <string name="profileNameWork">Pracovní</string>
+    <string name="profileNameHome">Domov</string>
+    <string name="profileNameSilent">Tichý režim</string>
     <string name="profileNameNight">Noc</string>
     <string name="profileNameAutomobile">Automobil</string>
     <!-- Names of application groups. -->
@@ -67,61 +67,61 @@
     <string name="perf_profile_bal_summary">Optimální výkon a výkonové charakteristiky</string>
     <string name="perf_profile_perf_summary">Režim Vysoký výkon. Vhodné pro aplikace vyžadující nízkou latenci a vysoký výkon. Zvyšuje se spotřeba energie</string>
     <string name="perf_profile_bias_power_summary">Preferování úspory energie. Omezení maximálního výkonu procesoru, optimalizace úspory energie za cenu vyšší latence</string>
-    <string name="perf_profile_bias_perf_summary">Preferování výkonu. Snižuje latenci a zvyšuje spotřebu energie</string>
+    <string name="perf_profile_bias_perf_summary">Preferování výkonu. Snižuje latenci a mírně zvyšuje spotřebu energie</string>
     <!-- LiveDisplay strings -->
-    <string name="live_display_auto">Automatické</string>
+    <string name="live_display_auto">Automaticky</string>
     <string name="live_display_auto_summary">Automaticky upravit teplotu barev obrazovky po západu a východu slunce</string>
-    <string name="live_display_off">Vypnuto</string>
+    <string name="live_display_off">Vyp.</string>
     <string name="live_display_off_summary">Zakázat všechny úpravy</string>
     <string name="live_display_day">Den</string>
-    <string name="live_display_day_summary">Nastavení pouze pro den</string>
+    <string name="live_display_day_summary">Použít pouze denní nastavení</string>
     <string name="live_display_night">Noc</string>
-    <string name="live_display_night_summary">Nastavení pouze pro noc</string>
+    <string name="live_display_night_summary">Použít pouze noční nastavení</string>
     <string name="live_display_outdoor">Venku (slunečno)</string>
     <string name="live_display_outdoor_summary">Použít pouze venkovní nastavení</string>
     <string name="live_display_hint">LiveDisplay může pomoci proti namáhání očí a také spánku v noci. Dotykem zde tuto funkci můžete vyzkoušet!</string>
-    <string name="accessibility_quick_settings_live_display_off">LiveDisplay vyp.</string>
+    <string name="accessibility_quick_settings_live_display_off">LiveDisplay vypnutý.</string>
     <string name="accessibility_quick_settings_live_display_auto">LiveDisplay: automatický režim.</string>
-    <string name="accessibility_quick_settings_live_display_day">LiveDisplay: režim ve dne.</string>
-    <string name="accessibility_quick_settings_live_display_night">LiveDisplay: režim v noci.</string>
-    <string name="accessibility_quick_settings_live_display_outdoor">LiveDisplay: režim venku.</string>
-    <string name="accessibility_quick_settings_live_display_changed_off">LiveDisplay vypnutý.</string>
+    <string name="accessibility_quick_settings_live_display_day">LiveDisplay: denní režim.</string>
+    <string name="accessibility_quick_settings_live_display_night">LiveDisplay: noční režim.</string>
+    <string name="accessibility_quick_settings_live_display_outdoor">LiveDisplay: venkovní režim.</string>
+    <string name="accessibility_quick_settings_live_display_changed_off">LiveDisplay je vypnutý.</string>
     <string name="accessibility_quick_settings_live_display_changed_auto">LiveDisplay změněn na automatický režim.</string>
-    <string name="accessibility_quick_settings_live_display_changed_day">LiveDisplay změněn na režim ve dne.</string>
-    <string name="accessibility_quick_settings_live_display_changed_night">LiveDisplay změněn na režim v noci.</string>
-    <string name="accessibility_quick_settings_live_display_changed_outdoor">LiveDisplay změněn na režim venku.</string>
+    <string name="accessibility_quick_settings_live_display_changed_day">LiveDisplay změněn na denní režim.</string>
+    <string name="accessibility_quick_settings_live_display_changed_night">LiveDisplay změněn na noční režim.</string>
+    <string name="accessibility_quick_settings_live_display_changed_outdoor">LiveDisplay změněn na venkovní režim.</string>
     <!-- Performance manager permission title -->
     <string name="permlab_perfAccess">přístup ke správci výkonu</string>
     <!-- Performance manager permission description -->
     <string name="permdesc_perfAccessDesc">Umožňuje přistupovat ke službě výkonu. Toto oprávnění by neměla vyžadovat žádná normální aplikace.</string>
     <!-- Weather Service strings -->
     <string name="permlab_weather_read">číst počasí</string>
-    <string name="permdesc_weather_read">Umožní číst obsah od poskytovatele počasí.</string>
+    <string name="permdesc_weather_read">Umožňuje aplikaci číst obsah od poskytovatele počasí.</string>
     <string name="permlab_weather_write">aktualizovat poskytovatele počasí</string>
-    <string name="permdesc_weather_write">Umožní aktualizovat obsah poskytovatele počasí.</string>
+    <string name="permdesc_weather_write">Umožňuje aplikaci aktualizovat obsah poskytovatele počasí.</string>
     <string name="permlab_weather_bind">vázat se jako služba poskytovatele počasí</string>
-    <string name="permdesc_weather_bind">Umožní identifikaci jako služba poskytovatele počasí.</string>
-    <string name="permlab_weather_access_mgr">přistupovat ke službě počasí</string>
-    <string name="permdesc_weather_access_mgr">Umožní přistupovat ke službě počasí v systému. Toto oprávnění by neměla vyžadovat žádná normální aplikace.</string>
+    <string name="permdesc_weather_bind">Umožňuje aplikaci identifikovat se jako služba poskytovatele počasí.</string>
+    <string name="permlab_weather_access_mgr">přístup ke službě počasí</string>
+    <string name="permdesc_weather_access_mgr">Umožňuje přistupovat ke službě počasí v systému. Toto oprávnění by neměla vyžadovat žádná normální aplikace.</string>
     <!-- DataUsageProvider write permission title -->
     <string name="permlab_dataUsageWrite">měnit databázi využití dat</string>
     <!-- DataUsageProvider write permission description -->
-    <string name="permdesc_dataUsageWrite">Umožní aktualizovat obsah databáze využití dat.</string>
+    <string name="permdesc_dataUsageWrite">Umožňuje aplikaci aktualizovat obsah databáze využití dat.</string>
     <!-- DataUsageProvider read permission title -->
     <string name="permlab_dataUsageRead">čist databázi využití dat</string>
     <!-- DataUsageProvider read permission description -->
-    <string name="permdesc_dataUsageRead">Umožní číst obsah databáze využití dat.</string>
+    <string name="permdesc_dataUsageRead">Umožňuje aplikaci číst obsah z databáze využití dat.</string>
     <!-- LiveDisplay manager permission -->
     <string name="permlab_manageLiveDisplay">spravovat nastavení LiveDisplay</string>
-    <string name="permdesc_manageLiveDisplay">Umožní nastavovat rozšířené nastavení obrazovky.</string>
+    <string name="permdesc_manageLiveDisplay">Umožňuje nastavovat rozšířené nastavení obrazovky.</string>
     <!-- LineageAudioService - observe session changes permission -->
-    <string name="permlab_observe_audio_sessions">sledovat změny audio relace</string>
-    <string name="permdesc_observe_audio_sessions">Umožní sledovat vytváření a rušení zvukových zdrojů.</string>
+    <string name="permlab_observe_audio_sessions">sledovat změny zvukových relací</string>
+    <string name="permdesc_observe_audio_sessions">Umožňuje aplikaci sledovat vytváření a ukončování zvukových relací.</string>
     <!-- Privacy Guard -->
     <string name="privacy_guard_manager_title">Ochrana soukromí</string>
     <!-- Permissions used by remote preferences -->
-    <string name="permlab_manageRemotePrefs">správa vzdálených nastavení</string>
-    <string name="permdesc_manageRemotePrefs">Umožňuje spravovat vzdálené nastavení</string>
+    <string name="permlab_manageRemotePrefs">spravovat nastavení vzdáleného přístupu</string>
+    <string name="permdesc_manageRemotePrefs">Umožňuje aplikaci spravovat vzdálené nastavení</string>
     <!-- About device screen, build date -->
     <string name="build_date">Datum sestavení</string>
     <!-- About device screen, LineageOS API Level -->

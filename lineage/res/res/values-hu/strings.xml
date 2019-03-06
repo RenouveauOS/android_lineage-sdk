@@ -18,28 +18,36 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Label for the LineageOS system components when they are shown to the user. -->
+    <string name="lineageos_system_label">LineageOS Rendszer</string>
     <!-- Labels for the MODIFY_PROFILES permission. -->
     <string name="permlab_modifyProfiles">rendszerprofilok módosítása</string>
-    <string name="permdesc_modifyProfiles">Lehetővé teszi az alkalmazás számára a rendszerprofilok módosítását.</string>
+    <string name="permdesc_modifyProfiles">Lehetővé teszi egy alkalmazás számára a rendszerprofilok módosítását.</string>
     <!-- Labels for the HARDWARE_ABSTRACTION_ACCESS permission. -->
-    <string name="permlab_useHardwareFramework">hardver keretrendszert használ</string>
+    <string name="permlab_useHardwareFramework">hardver keretrendszer használata</string>
+    <string name="permdesc_useHardwareFramework">Lehetővé teszi egy alkalmazás számára, hogy hozzáférjen a Lineage hardver-keretrendszerhez.</string>
     <!-- Labels for the WRITE_SETTINGS permission -->
+    <string name="permlab_writeSettings">a Lineage rendszerbeállításainak módosítása</string>
+    <string name="permdesc_writeSettings">Engedélyezi egy alkalmazás számára, hogy módosítsa a Lineage rendszerbeállításait.</string>
     <!-- Labels for the WRITE_SECURE_SETTINGS permission -->
+    <string name="permlab_writeSecureSettings">a Lineage rendszer biztonsági beállításainak módosítása</string>
+    <string name="permdesc_writeSecureSettings">Engedélyezi egy alkalmazás számára, hogy módosítsa a Lineage rendszer biztonsági beállításait. Nem vonatkozik normál alkalmazásokra.</string>
     <!-- Labels for the PROTECTED_APP permission. -->
-    <string name="permlab_protectedApp">alkalmazások hozzáadása vagy eltávolítása a védett alkalmazásokból</string>
-    <string name="permdesc_protectedApp">Lehetővé teszi az alkalmazás számára más alkalmazások védetté nyilvánítását és azok zárolását.</string>
+    <string name="permlab_protectedApp">hozzáférés a védett alkalmazásokhoz (hozzáadás, eltávolítás)</string>
+    <string name="permdesc_protectedApp">Lehetővé teszi egy alkalmazásnak, hogy megjelöljön más alkalmazásokat védettként és zárolja azokat.</string>
     <!-- Labels for CHANGE_STYLE permission -->
+    <string name="permlab_changeStyle">a rendszerstílus módosítása</string>
     <!-- this is wrong, but google's package manager uses the android:description
          attribute as description for the runtime permission request dialog
          with non-default dangerous permissions -->
+    <string name="permdesc_changeStyle">a rendszerszínek személyre szabása</string>
     <!-- Profiles -->
     <!-- Names of default profiles. -->
     <string name="profileNameDefault">Alapértelmezett</string>
-    <string name="profileNameWork">Munka</string>
-    <string name="profileNameHome">Otthon</string>
+    <string name="profileNameWork">Munkahelyi</string>
+    <string name="profileNameHome">Otthoni</string>
     <string name="profileNameSilent">Néma</string>
-    <string name="profileNameNight">Éjszaka</string>
-    <string name="profileNameAutomobile">Autóban</string>
+    <string name="profileNameNight">Éjszakai</string>
+    <string name="profileNameAutomobile">Autós</string>
     <!-- Names of application groups. -->
     <string name="profileGroupPhone">Telefon</string>
     <string name="profileGroupCalendar">Naptár</string>
@@ -47,12 +55,12 @@
     <string name="profileGroupEmail">E-mail</string>
     <string name="profileGroupSMS">SMS</string>
     <!-- Name of wildcard profile. -->
-    <string name="wildcardProfile">Egyéb</string>
+    <string name="wildcardProfile">Egyebek</string>
     <!-- Performance profiles -->
     <string name="perf_profile_pwrsv">Energiatakarékos</string>
     <string name="perf_profile_bal">Kiegyensúlyozott</string>
-    <string name="perf_profile_perf">Teljesítmény</string>
-    <string name="perf_profile_bias_power">Hatékonyság</string>
+    <string name="perf_profile_perf">Teljesítményközpontú</string>
+    <string name="perf_profile_bias_power">Hatékonyságközpontú</string>
     <string name="perf_profile_bias_perf">Gyors</string>
     <!-- Performance profiles -->
     <string name="perf_profile_pwrsv_summary">Maximális energiatakarékosság. Csökkenti a készülék teljesítményét</string>
@@ -62,26 +70,26 @@
     <string name="perf_profile_bias_perf_summary">Teljesítmény előnyben részesítése. Enyhén megnövekedett energiafogyatással csökkenti a késleltetést</string>
     <!-- LiveDisplay strings -->
     <string name="live_display_auto">Automatikus</string>
-    <string name="live_display_auto_summary">Automatikusan beállítja a képernyő színhőmérsékletét napnyugta és napkelte után</string>
+    <string name="live_display_auto_summary">Automatikusan beállítja a képernyő színhőmérsékletét naplemente és napkelte után</string>
     <string name="live_display_off">Ki</string>
     <string name="live_display_off_summary">Az összes beállítás kikapcsolása</string>
-    <string name="live_display_day">Nap</string>
+    <string name="live_display_day">Nappal</string>
     <string name="live_display_day_summary">Csak a nappali beállítások használata</string>
     <string name="live_display_night">Éjszaka</string>
     <string name="live_display_night_summary">Csak az éjszakai béállítások használata</string>
     <string name="live_display_outdoor">Kültéri (erős napfény)</string>
-    <string name="live_display_outdoor_summary">Csak a kültéri beállítások használata</string>
+    <string name="live_display_outdoor_summary">Csak kültéri beállítások használata</string>
     <string name="live_display_hint">A LiveDisplay segíthet a szemek terhelésének csökkentésében és a jobb éjszakai alvásban. Kattintson ide, hogy kipróbálja!</string>
     <string name="accessibility_quick_settings_live_display_off">LiveDisplay ki.</string>
-    <string name="accessibility_quick_settings_live_display_auto">LiveDisplay: automatikus mód.</string>
+    <string name="accessibility_quick_settings_live_display_auto">LiveDisplay: auto mód.</string>
     <string name="accessibility_quick_settings_live_display_day">LiveDisplay: nappali mód.</string>
     <string name="accessibility_quick_settings_live_display_night">LiveDisplay: éjszakai mód.</string>
-    <string name="accessibility_quick_settings_live_display_outdoor">LiveDisplay: szabadtéri mód.</string>
+    <string name="accessibility_quick_settings_live_display_outdoor">LiveDisplay: kültéri mód.</string>
     <string name="accessibility_quick_settings_live_display_changed_off">LiveDisplay kikapcsolva.</string>
-    <string name="accessibility_quick_settings_live_display_changed_auto">LiveDisplay automatikus módra változtatva.</string>
+    <string name="accessibility_quick_settings_live_display_changed_auto">LiveDisplay auto módra változtatva.</string>
     <string name="accessibility_quick_settings_live_display_changed_day">LiveDisplay nappali módra változtatva.</string>
     <string name="accessibility_quick_settings_live_display_changed_night">LiveDisplay éjszakai módra változtatva.</string>
-    <string name="accessibility_quick_settings_live_display_changed_outdoor">LiveDisplay szabadtéri módra változtatva.</string>
+    <string name="accessibility_quick_settings_live_display_changed_outdoor">LiveDisplay kültéri módra változtatva.</string>
     <!-- Performance manager permission title -->
     <string name="permlab_perfAccess">hozzáférés a teljesítmény kezelőhöz</string>
     <!-- Performance manager permission description -->
@@ -90,10 +98,10 @@
     <string name="permlab_weather_read">időjárás olvasása</string>
     <string name="permdesc_weather_read">Lehetővé teszi az alkalmazás számára az időjárás szolgáltatói tartalom olvasását.</string>
     <string name="permlab_weather_write">időjárás szolgáltató frissítése</string>
-    <string name="permdesc_weather_write">Lehetővé teszi az alkalmazás számár, hogy frissítse az időjárás szolgáltató tartalmát.</string>
-    <string name="permlab_weather_bind">időjárás szolgáltatóként kötés</string>
-    <string name="permdesc_weather_bind">Lehetővé teszi az alkalmazás számára, hogy mint időjárás szolgáltató kerüljön azonosításra.</string>
-    <string name="permlab_weather_access_mgr">hozzáférés időjárás szolgáltatáshoz</string>
+    <string name="permdesc_weather_write">Lehetővé teszi egy alkalmazás számára, hogy frissítse a tartalmat az időjárás-szolgáltatóról.</string>
+    <string name="permlab_weather_bind">beállítás időjárás-szolgáltató szolgáltatásként</string>
+    <string name="permdesc_weather_bind">Lehetővé teszi egy alkalmazás számára, hogy időjárás-szolgáltató szolgáltatásként legyen azonosítva.</string>
+    <string name="permlab_weather_access_mgr">hozzáférés időjárás-szolgáltatóhoz</string>
     <string name="permdesc_weather_access_mgr">Lehetővé teszi az alkalmazás számára a rendszer időjárás szolgáltatásának elérését. Általános alkalmazásoknak soha nem kell ilyen engedély.</string>
     <!-- DataUsageProvider write permission title -->
     <string name="permlab_dataUsageWrite">adathasználati adatbázis módosítása</string>
@@ -108,20 +116,31 @@
     <string name="permdesc_manageLiveDisplay">Lehetővé teszi az alkalmazás számára a speciális megjelenítési beállítások konfigurálását.</string>
     <!-- LineageAudioService - observe session changes permission -->
     <string name="permlab_observe_audio_sessions">audió munkamenet változásainak megfigyelése</string>
-    <string name="permdesc_observe_audio_sessions">Lehetővé teszi az alkalmazás számára, hogy megfigyelje ahogy az audió folyamok létrejönnek és elpusztulnak.</string>
+    <string name="permdesc_observe_audio_sessions">Lehetővé teszi egy alkalmazás számára, hogy megfigyelje az audió adások létrehozásást és megsemmisítését.</string>
     <!-- Privacy Guard -->
-    <string name="privacy_guard_manager_title">Adatvédelmi beállítások</string>
+    <string name="privacy_guard_manager_title">Adatvédelmi Őr</string>
     <!-- Permissions used by remote preferences -->
     <string name="permlab_manageRemotePrefs">távoli beállítások kezelése</string>
     <string name="permdesc_manageRemotePrefs">Lehetővé teszi az alkalmazások számára a távoli beállítások kezelését</string>
     <!-- About device screen, build date -->
+    <string name="build_date">A kiadás dátuma</string>
     <!-- About device screen, LineageOS API Level -->
+    <string name="lineage_api_level">LineageOS API szint</string>
     <!-- About device screen, LineageOS updates -->
+    <string name="lineage_updates">LineageOS frissítések</string>
     <!-- About device screen, LineageOS version -->
+    <string name="lineage_version">LineageOS verzió</string>
     <!-- About device screen, vendor security patch -->
+    <string name="lineage_vendor_security_patch">Gyártói biztonsági hibajavító csomag szintje</string>
     <!-- General purpose use "unknown" string -->
+    <string name="unknown">Ismeretlen</string>
     <!-- Long-press back kill application -->
+    <string name="app_killed_message">Alkalmazás leállítva</string>
     <!-- Status bar network traffic monitor strings -->
+    <string name="kilobitspersecond_short">kb/s</string>
+    <string name="megabitspersecond_short">Mb/s</string>
+    <string name="kilobytespersecond_short">kB/s</string>
+    <string name="megabytespersecond_short">MB/s</string>
     <!-- Accent colors -->
     <string name="rr_accent_black">Fekete</string>
     <string name="rr_accent_blue">Kék</string>
@@ -137,4 +156,16 @@
     <!-- This string will be referenced from other apps when they're referring to the Trust interface.
          Trust is a feature name, it's not suggested to translate this unless there are conflicts due
          to a different meaning of the word "trust" in your language -->
+    <string name="trust_feature_name">Trust</string>
+    <string name="permlab_trustInterface">hozzáférés a Trust felületéhez</string>
+    <string name="permdesc_trustInterface">Lehetővé teszi, hogy egy alkalmazás megjelenítse a Trust figyelmeztetéseit és javaslatait</string>
+    <string name="trust_notification_channel">Trust riasztások</string>
+    <string name="trust_notification_title_security">Trust \u2022 Rendszerbiztonság</string>
+    <string name="trust_notification_content_selinux">Ha az SELinux nem kényszerített, az Ön biztonsági szintje meggyengült</string>
+    <string name="trust_notification_title_root">Trust \u2022 Root hozzáférés</string>
+    <string name="trust_notification_content_root">Egy alkalmazás root jogokat használ éppen most</string>
+    <string name="trust_notification_content_keys">Ezt a kiadást nyilvános kulcsokkal írták alá</string>
+    <string name="trust_notification_title_onboarding">Fedezze fel a Trust-ot</string>
+    <string name="trust_notification_content_onboarding">Ismerje meg, hogyan garantálhatja a készüléke biztonságát</string>
+    <string name="trust_notification_action_manage">Értesítések kezelése</string>
 </resources>

@@ -20,7 +20,6 @@
     <!-- Label for the LineageOS system components when they are shown to the user. -->
     <!-- Labels for the MODIFY_PROFILES permission. -->
     <!-- Labels for the HARDWARE_ABSTRACTION_ACCESS permission. -->
-    <string name="permlab_useHardwareFramework">使用硬件框架</string>
     <!-- Labels for the WRITE_SETTINGS permission -->
     <!-- Labels for the WRITE_SECURE_SETTINGS permission -->
     <!-- Labels for the PROTECTED_APP permission. -->
@@ -30,7 +29,6 @@
          with non-default dangerous permissions -->
     <!-- Profiles -->
     <!-- Names of default profiles. -->
-    <string name="profileNameSilent">靜音</string>
     <!-- Names of application groups. -->
     <!-- Name of wildcard profile. -->
     <!-- Performance profiles -->

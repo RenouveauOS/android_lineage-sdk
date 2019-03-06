@@ -21,19 +21,19 @@
     <string name="lineageos_system_label">Sistema LineageOS</string>
     <!-- Labels for the MODIFY_PROFILES permission. -->
     <string name="permlab_modifyProfiles">modificar os perfis de sistema</string>
-    <string name="permdesc_modifyProfiles">Permite que um aplicativo modifique os perfis de sistema.</string>
+    <string name="permdesc_modifyProfiles">Permite que um app modifique os perfis do sistema.</string>
     <!-- Labels for the HARDWARE_ABSTRACTION_ACCESS permission. -->
-    <string name="permlab_useHardwareFramework">usar o framework do hardware</string>
+    <string name="permlab_useHardwareFramework">usar o framework de hardware</string>
     <string name="permdesc_useHardwareFramework">Permite que um aplicativo acesse a estrutura de hardware do sistema Lineage.</string>
     <!-- Labels for the WRITE_SETTINGS permission -->
     <string name="permlab_writeSettings">modificar as configurações do sistema Lineage</string>
     <string name="permdesc_writeSettings">Permite que um aplicativo modifique as configurações do sistema Lineage.</string>
     <!-- Labels for the WRITE_SECURE_SETTINGS permission -->
     <string name="permlab_writeSecureSettings">modificar as configurações seguras do sistema Lineage</string>
-    <string name="permdesc_writeSecureSettings">Permite que um aplicativo modifique as configurações do sistema seguro Lineage. Não é utilizado por aplicativos normais.</string>
+    <string name="permdesc_writeSecureSettings">Permite que uma aplicação modifique as definições de segurança do sistema Lineage. Não será usado por aplicações normais.</string>
     <!-- Labels for the PROTECTED_APP permission. -->
-    <string name="permlab_protectedApp">adicionar e remover aplicativos aos protegidos</string>
-    <string name="permdesc_protectedApp">Permite que um aplicativo marque outros aplicativos como protegidos e os bloqueie.</string>
+    <string name="permlab_protectedApp">adicionar e remover aplicativos aos aplicativos protegidos</string>
+    <string name="permdesc_protectedApp">Permite a um aplicativo marcar outros aplicativos como protegidas e bloqueá-los.</string>
     <!-- Labels for CHANGE_STYLE permission -->
     <string name="permlab_changeStyle">mudar o estilo do sistema</string>
     <!-- this is wrong, but google's package manager uses the android:description
@@ -42,17 +42,17 @@
     <string name="permdesc_changeStyle">personalizar as cores do sistema</string>
     <!-- Profiles -->
     <!-- Names of default profiles. -->
-    <string name="profileNameDefault">Padrão</string>
+    <string name="profileNameDefault">Padrão </string>
     <string name="profileNameWork">Trabalho</string>
-    <string name="profileNameHome">Casa</string>
-    <string name="profileNameSilent">Silêncio</string>
+    <string name="profileNameHome">Início</string>
+    <string name="profileNameSilent">Silencioso</string>
     <string name="profileNameNight">Noite</string>
     <string name="profileNameAutomobile">Automóvel</string>
     <!-- Names of application groups. -->
     <string name="profileGroupPhone">Telefone</string>
     <string name="profileGroupCalendar">Calendário</string>
     <string name="profileGroupGmail">Gmail</string>
-    <string name="profileGroupEmail">E-mail</string>
+    <string name="profileGroupEmail">E-Mail</string>
     <string name="profileGroupSMS">SMS</string>
     <!-- Name of wildcard profile. -->
     <string name="wildcardProfile">Outro</string>
@@ -66,49 +66,49 @@
     <string name="perf_profile_pwrsv_summary">Economia máxima de energia, reduz o desempenho do dispositivo</string>
     <string name="perf_profile_bal_summary">Equilíbrio entre desempenho e consumo de energia</string>
     <string name="perf_profile_perf_summary">Modo de alto desempenho. Útil para aplicações que requerem baixa latência e a taxa de transferência mais alta, quando o consumo de energia não é uma preocupação</string>
-    <string name="perf_profile_bias_power_summary">Favorece a economia de energia. Limita a potência máxima da CPU e otimiza a economia de energia a custo de maior latência</string>
+    <string name="perf_profile_bias_power_summary">Favorece a economia de energia. Otimiza e limita a potência máxima de CPU ao custo de maior latência</string>
     <string name="perf_profile_bias_perf_summary">Favorece o desempenho. Reduz a latência com consumo de energia ligeiramente aumentado</string>
     <!-- LiveDisplay strings -->
     <string name="live_display_auto">Automático</string>
-    <string name="live_display_auto_summary">Ajusta automaticamente a temperatura de cor da tela após o pôr do sol e nascer do sol</string>
-    <string name="live_display_off">Desligado</string>
+    <string name="live_display_auto_summary">Ajusta automaticamente a cor da temperatura da tela depois do pôr e nascer do sol</string>
+    <string name="live_display_off">Desativado</string>
     <string name="live_display_off_summary">Desativar todos os ajustes</string>
     <string name="live_display_day">Dia</string>
-    <string name="live_display_day_summary">Usar apenas configurações diurnas</string>
+    <string name="live_display_day_summary">Apenas usar configurações do dia</string>
     <string name="live_display_night">Noite</string>
-    <string name="live_display_night_summary">Use apenas configurações noturnas</string>
-    <string name="live_display_outdoor">Ao ar livre (sol forte)</string>
+    <string name="live_display_night_summary">Apenas usar configurações da noite</string>
+    <string name="live_display_outdoor">Externo (sol intenso)</string>
     <string name="live_display_outdoor_summary">Usar apenas configurações de ao ar livre</string>
-    <string name="live_display_hint">LiveDisplay pode ajudar a reduzir o cansaço visual e ajudá-lo a dormir à noite. Clique aqui para experimentá-lo!</string>
+    <string name="live_display_hint">LiveDisplay pode te ajudar a reduzir cansaço dos olhos e ajudar você a dormir durante a noite. Clique aqui para testar!</string>
     <string name="accessibility_quick_settings_live_display_off">LiveDisplay desligado.</string>
     <string name="accessibility_quick_settings_live_display_auto">LiveDisplay: modo automático.</string>
-    <string name="accessibility_quick_settings_live_display_day">LiveDisplay: modo diurno.</string>
-    <string name="accessibility_quick_settings_live_display_night">LiveDisplay: modo noturno.</string>
-    <string name="accessibility_quick_settings_live_display_outdoor">LiveDisplay: modo ao ar livre.</string>
+    <string name="accessibility_quick_settings_live_display_day">LiveDisplay: modo dia.</string>
+    <string name="accessibility_quick_settings_live_display_night">LiveDisplay: modo noite.</string>
+    <string name="accessibility_quick_settings_live_display_outdoor">LiveDisplay: modo exterior.</string>
     <string name="accessibility_quick_settings_live_display_changed_off">LiveDisplay foi desligado.</string>
     <string name="accessibility_quick_settings_live_display_changed_auto">LiveDisplay alterado para modo automático.</string>
-    <string name="accessibility_quick_settings_live_display_changed_day">LiveDisplay alterado para modo diurno.</string>
-    <string name="accessibility_quick_settings_live_display_changed_night">LiveDisplay alterado para modo noturno.</string>
-    <string name="accessibility_quick_settings_live_display_changed_outdoor">LiveDisplay alterado para modo ao ar livre.</string>
+    <string name="accessibility_quick_settings_live_display_changed_day">LiveDisplay alterado para o modo dia.</string>
+    <string name="accessibility_quick_settings_live_display_changed_night">LiveDisplay alterado para o modo noite.</string>
+    <string name="accessibility_quick_settings_live_display_changed_outdoor">LiveDisplay alterado para o modo exterior.</string>
     <!-- Performance manager permission title -->
     <string name="permlab_perfAccess">acessar o gerenciador de desempenho</string>
     <!-- Performance manager permission description -->
     <string name="permdesc_perfAccessDesc">Permite que um aplicativo acesse o serviço de desempenho. Nunca deve ser necessário para aplicativos normais.</string>
     <!-- Weather Service strings -->
     <string name="permlab_weather_read">ler previsão do tempo</string>
-    <string name="permdesc_weather_read">Permite que um aplicativo leia o conteúdo do provedor da previsão do tempo.</string>
-    <string name="permlab_weather_write">atualizar provedor de provisão do tempo</string>
-    <string name="permdesc_weather_write">Permite que um aplicativo atualize o conteúdo do provedor da previsão do tempo.</string>
-    <string name="permlab_weather_bind">vincular-se como um provedor de previsão do tempo</string>
-    <string name="permdesc_weather_bind">Permite que um aplicativo seja identificado como um provedor de previsão de tempo.</string>
+    <string name="permdesc_weather_read">Permite que um aplicativo leia o conteúdo do provedor meteorológico.</string>
+    <string name="permlab_weather_write">atualiza o provedor meteorológico</string>
+    <string name="permdesc_weather_write">Permite que um aplicativo atualize o conteúdo do provedor meteorológico.</string>
+    <string name="permlab_weather_bind">vincular-se como um serviço de provedor meteorológico</string>
+    <string name="permdesc_weather_bind">Permite que um aplicativo seja identificado como um provedor meteorológico.</string>
     <string name="permlab_weather_access_mgr">acesso ao serviço de previsão do tempo</string>
     <string name="permdesc_weather_access_mgr">Permite que um aplicativo acesse a previsão do tempo no sistema. Nunca deverá ser necessário para aplicativos normais.</string>
     <!-- DataUsageProvider write permission title -->
-    <string name="permlab_dataUsageWrite">modificar o banco de dados de uso de dados</string>
+    <string name="permlab_dataUsageWrite">modificar dados de uso de dados</string>
     <!-- DataUsageProvider write permission description -->
     <string name="permdesc_dataUsageWrite">Permite um aplicativo a atualizar o conteúdo da base de dados de uso de dados.</string>
     <!-- DataUsageProvider read permission title -->
-    <string name="permlab_dataUsageRead">ler banco de dados de uso de dados</string>
+    <string name="permlab_dataUsageRead">ler dados de uso de dados</string>
     <!-- DataUsageProvider read permission description -->
     <string name="permdesc_dataUsageRead">Permite um aplicativo ler o conteúdo do banco de dados de uso de dados.</string>
     <!-- LiveDisplay manager permission -->
@@ -116,26 +116,26 @@
     <string name="permdesc_manageLiveDisplay">Permite que um aplicativo configure as definições de visualização avançada.</string>
     <!-- LineageAudioService - observe session changes permission -->
     <string name="permlab_observe_audio_sessions">observar as alterações da sessão de áudio</string>
-    <string name="permdesc_observe_audio_sessions">Permite que um app observe o fluxo de áudio sendo criado e destruído.</string>
+    <string name="permdesc_observe_audio_sessions">Permite que um aplicativo observe os fluxos de áudio sendo criado e destruído.</string>
     <!-- Privacy Guard -->
     <string name="privacy_guard_manager_title">Proteção à privacidade</string>
     <!-- Permissions used by remote preferences -->
-    <string name="permlab_manageRemotePrefs">Administrar configurações remotas</string>
-    <string name="permdesc_manageRemotePrefs">Permitir que um app possa administrar configurações remotas</string>
+    <string name="permlab_manageRemotePrefs">Administrar configurações remotas.</string>
+    <string name="permdesc_manageRemotePrefs">Permite que um aplicativo gerencie configurações remotas</string>
     <!-- About device screen, build date -->
-    <string name="build_date">Data de compilação</string>
+    <string name="build_date">Data da compilação</string>
     <!-- About device screen, LineageOS API Level -->
-    <string name="lineage_api_level">Nível de API do sistema</string>
+    <string name="lineage_api_level">Nível da API LineageOS</string>
     <!-- About device screen, LineageOS updates -->
-    <string name="lineage_updates">Atualizações do sistema</string>
+    <string name="lineage_updates">Atualizações LineageOS</string>
     <!-- About device screen, LineageOS version -->
-    <string name="lineage_version">Versão do sistema</string>
+    <string name="lineage_version">Versão LineageOS</string>
     <!-- About device screen, vendor security patch -->
     <string name="lineage_vendor_security_patch">Nível da atualização de segurança do fabricante</string>
     <!-- General purpose use "unknown" string -->
-    <string name="unknown">Desconhecido</string>
+    <string name="unknown">Desconhecida</string>
     <!-- Long-press back kill application -->
-    <string name="app_killed_message">Aplicativo encerrado</string>
+    <string name="app_killed_message">Aplicação encerrada</string>
     <!-- Status bar network traffic monitor strings -->
     <string name="kilobitspersecond_short">kb/s</string>
     <string name="megabitspersecond_short">Mb/s</string>
@@ -160,8 +160,8 @@
     <string name="permlab_trustInterface">acessar a interface do Agente de Confiança</string>
     <string name="permdesc_trustInterface">Permite que um aplicativo mostre avisos e sugestões do Agente de Confiança</string>
     <string name="trust_notification_channel">Alertas do Agente de Confiança</string>
-    <string name="trust_notification_title_security">Confiar na \u2022 segurança do Sistema</string>
-    <string name="trust_notification_content_selinux">O SELinux não está no modo Impondo. Sua segurança torna-se fragilizada</string>
+    <string name="trust_notification_title_security">Confiar \u2022 segurança do Sistema</string>
+    <string name="trust_notification_content_selinux">O SELinux não está no modo Impondo. Sua segurança está fragilizada</string>
     <string name="trust_notification_title_root">Confiar no \u2022 acesso de superusuário</string>
     <string name="trust_notification_content_root">Um aplicativo está usando os privilégios de superusuário</string>
     <string name="trust_notification_content_keys">Esta compilação foi assinada com chaves públicas</string>
