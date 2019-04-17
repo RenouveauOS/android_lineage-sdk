@@ -79,7 +79,7 @@
     <string name="live_display_night_summary">夜の設定のみを使用する</string>
     <string name="live_display_outdoor">屋外 (日光)</string>
     <string name="live_display_outdoor_summary">屋外の設定のみを使用する</string>
-    <string name="live_display_hint">LiveDisplay は目の疲れを軽減し、夜の睡眠を邪魔しません。ここをタップして試してみてください。</string>
+    <string name="live_display_hint">LiveDisplay は目の疲れを軽減し、夜の睡眠を邪魔しません。ここをタップして試してみて下さい。</string>
     <string name="accessibility_quick_settings_live_display_off">LiveDisplay OFF</string>
     <string name="accessibility_quick_settings_live_display_auto">LiveDisplay: 自動モード</string>
     <string name="accessibility_quick_settings_live_display_day">LiveDisplay: 昼モード</string>
