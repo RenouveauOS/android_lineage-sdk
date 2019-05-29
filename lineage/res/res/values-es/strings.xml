@@ -88,7 +88,7 @@
     <string name="accessibility_quick_settings_live_display_changed_off">LiveDisplay desactivado.</string>
     <string name="accessibility_quick_settings_live_display_changed_auto">LiveDisplay cambiado a modo automático.</string>
     <string name="accessibility_quick_settings_live_display_changed_day">LiveDisplay cambiado a modo día.</string>
-    <string name="accessibility_quick_settings_live_display_changed_night">LiveDisplay cambiado a modo noche.</string>
+    <string name="accessibility_quick_settings_live_display_changed_night">LiveDisplay cambiado a modo nocturno.</string>
     <string name="accessibility_quick_settings_live_display_changed_outdoor">LiveDisplay cambiado a modo exterior.</string>
     <!-- Performance manager permission title -->
     <string name="permlab_perfAccess">acceso al gestor de rendimiento</string>
@@ -108,7 +108,7 @@
     <!-- DataUsageProvider write permission description -->
     <string name="permdesc_dataUsageWrite">Permite que una aplicación actualice los datos del contenido de la base de datos.</string>
     <!-- DataUsageProvider read permission title -->
-    <string name="permlab_dataUsageRead">leer base de datos de uso de datos</string>
+    <string name="permlab_dataUsageRead">leer la base de datos de uso de datos</string>
     <!-- DataUsageProvider read permission description -->
     <string name="permdesc_dataUsageRead">Permite que una aplicación lea el contenido desde la base de datos.</string>
     <!-- LiveDisplay manager permission -->
@@ -123,7 +123,7 @@
     <string name="permlab_manageRemotePrefs">administrar la configuración remota</string>
     <string name="permdesc_manageRemotePrefs">Permite a una aplicación administrar la configuración remota</string>
     <!-- About device screen, build date -->
-    <string name="build_date">Fecha de construcción</string>
+    <string name="build_date">Fecha de compilación</string>
     <!-- About device screen, LineageOS API Level -->
     <string name="lineage_api_level">Nivel de la API de LineageOS</string>
     <!-- About device screen, LineageOS updates -->

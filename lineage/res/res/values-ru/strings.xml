@@ -52,7 +52,7 @@
     <string name="profileGroupPhone">Телефон</string>
     <string name="profileGroupCalendar">Календарь</string>
     <string name="profileGroupGmail">Gmail</string>
-    <string name="profileGroupEmail">email</string>
+    <string name="profileGroupEmail">Email</string>
     <string name="profileGroupSMS">SMS</string>
     <!-- Name of wildcard profile. -->
     <string name="wildcardProfile">Прочее</string>
@@ -60,8 +60,8 @@
     <string name="perf_profile_pwrsv">Энергосбережение</string>
     <string name="perf_profile_bal">Сбалансированный</string>
     <string name="perf_profile_perf">Производительность</string>
-    <string name="perf_profile_bias_power">Эффективный</string>
-    <string name="perf_profile_bias_perf">Быстро</string>
+    <string name="perf_profile_bias_power">Энергоэффективный</string>
+    <string name="perf_profile_bias_perf">Оптимальная производительность</string>
     <!-- Performance profiles -->
     <string name="perf_profile_pwrsv_summary">Максимальное энергосбережение, снижает производительность устройства</string>
     <string name="perf_profile_bal_summary">Баланс оптимальной производительности и энергопотребления</string>
