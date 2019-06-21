@@ -178,6 +178,8 @@
     <string name="rr_accent_purple">Purple</string>
     <string name="rr_accent_darkgreen">Dark green</string>
     <string name="rr_accent_yellow">Yellow</string>
+    <string name="renouveau_accent_renouveau_purple">Renouveau Purple</string>
+    <string name="renouveau_accent_renouveau_red">Renouveau Red</string>
 
     <!-- Trust interface -->
     <!-- This string will be referenced from other apps when they're referring to the Trust interface.
