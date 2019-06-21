@@ -128,5 +128,7 @@
         <item>org.lineageos.overlay.accent.yellow</item>
         <item>org.lineageos.overlay.accent.brown</item>
         <item>org.lineageos.overlay.accent.black</item>
+	<item>org.lineageos.overlay.accent.renouveau_purple</item>
+	<item>org.lineageos.overlay.accent.renouveau_red</item>
     </string-array>
 </resources>

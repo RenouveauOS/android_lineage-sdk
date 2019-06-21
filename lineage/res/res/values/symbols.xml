@@ -160,6 +160,8 @@
     <java-symbol type="string" name="rr_accent_purple" />
     <java-symbol type="string" name="rr_accent_darkgreen" />
     <java-symbol type="string" name="rr_accent_yellow" />
+    <java-symbol type="string" name="renouveau_accent_renouveau_purple" />
+    <java-symbol type="string" name="renouveau_accent_renouveau_red" />
 
     <java-symbol type="array" name="config_vendorPlatformSignatures" />
 
