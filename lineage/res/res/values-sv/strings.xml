@@ -27,13 +27,18 @@
     <string name="permdesc_useHardwareFramework">Ger en app åtkomst till LineageOS hårdvaruramverk.</string>
     <!-- Labels for the WRITE_SETTINGS permission -->
     <string name="permlab_writeSettings">ändra Lineage systeminställningar</string>
+    <string name="permdesc_writeSettings">Tillåter en app att ändra på Lineage\'s system-inställningar.</string>
     <!-- Labels for the WRITE_SECURE_SETTINGS permission -->
+    <string name="permlab_writeSecureSettings">ändra Lineage\'s säkra system-inställningar</string>
     <!-- Labels for the PROTECTED_APP permission. -->
     <string name="permlab_protectedApp">Lägg till och ta bort appar från skyddade appar</string>
+    <string name="permdesc_protectedApp">Tillåter en app att markera andra appar som skyddade och låsa dem.</string>
     <!-- Labels for CHANGE_STYLE permission -->
+    <string name="permlab_changeStyle">ändra systemstil</string>
     <!-- this is wrong, but google's package manager uses the android:description
          attribute as description for the runtime permission request dialog
          with non-default dangerous permissions -->
+    <string name="permdesc_changeStyle">anpassa systemfärgerna</string>
     <!-- Profiles -->
     <!-- Names of default profiles. -->
     <string name="profileNameDefault">Standard</string>
