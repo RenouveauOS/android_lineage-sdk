@@ -63,11 +63,11 @@
     <string name="perf_profile_bias_power">効率</string>
     <string name="perf_profile_bias_perf">高速</string>
     <!-- Performance profiles -->
-    <string name="perf_profile_pwrsv_summary">省電力化を最大化しますがパフォーマンスが低下します</string>
-    <string name="perf_profile_bal_summary">最適なパフォーマンスと電力特性のバランスを保ちます</string>
-    <string name="perf_profile_perf_summary">高パフォーマンスモードです。電力消費を気にしなければ、低遅延と高処理を必要とするアプリケーションに最適です。</string>
-    <string name="perf_profile_bias_power_summary">省電力化を優先します。遅延が起こりやすくなりますが、最大CPU電力を制限して省電力に最適化します。</string>
-    <string name="perf_profile_bias_perf_summary">パフォーマンスを優先します。わずかに電力消費が増えますが、遅延が軽減されます。</string>
+    <string name="perf_profile_pwrsv_summary">省電力化を最大化しますが性能が低下します</string>
+    <string name="perf_profile_bal_summary">最適な性能と電力特性のバランスを保ちます</string>
+    <string name="perf_profile_perf_summary">高性能モードです。電力消費を気にしなければ、低遅延と高処理を必要とするアプリに最適です。</string>
+    <string name="perf_profile_bias_power_summary">省電力化を優先します。遅延が起こりやすくなりますが、最大 CPU 電力を制限して省電力に最適化します。</string>
+    <string name="perf_profile_bias_perf_summary">性能を優先します。わずかに電力消費が増えますが、遅延が軽減されます。</string>
     <!-- LiveDisplay strings -->
     <string name="live_display_auto">自動</string>
     <string name="live_display_auto_summary">日の出と日の入りに画面の色温度を自動的に調整</string>
